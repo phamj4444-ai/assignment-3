@@ -63,12 +63,11 @@ if attempts == 5:
 
 print(middle_char("Python"))   # th
 print(middle_char("Code"))     # de
-def acronym(phrase):
-    words = phrase.split()
-    result = ""
-    for word in words:
-        result += word[0].upper()
-    return result
+def viet_tat(cum_tu):
+    print(viet_tat("vat the la khong xac dinh"))
 
-print(acronym("vật thể lạ không xác định"))  # UFO
+    ket_qua = ""
+    for tu in cum_tu.split():
+        ket_qua += UFO.upper()
+    return ket_qua
 
